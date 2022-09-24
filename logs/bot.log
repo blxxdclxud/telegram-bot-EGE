@@ -6719,3 +6719,240 @@ aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ServerDis
 2022-09-24 08:31:24,377 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
 2022-09-24 08:31:24,596 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-24 08:31:24,596 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-24 08:43:05,477 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('add_new_variant() takes 0 positional arguments but 1 was given')>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+TypeError: add_new_variant() takes 0 positional arguments but 1 was given
+2022-09-24 08:47:53,616 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-24 08:47:53,616 - aiogram - WARNING - Goodbye!
+2022-09-24 09:11:03,121 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:11:03,352 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:11:03,392 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:14:50,160 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:14:50,363 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:14:50,394 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:15:33,497 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:15:33,716 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:15:33,763 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:33:49,076 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:33:49,279 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:33:49,310 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:35:18,762 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:35:18,997 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:35:19,028 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:40:49,060 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:40:49,529 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:40:49,575 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:40:50,763 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2022-09-24 09:47:37,930 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:47:38,133 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:47:38,164 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:48:12,610 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:48:12,797 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:48:12,828 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:51:24,141 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:51:24,359 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:51:24,391 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:51:31,817 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:51:32,036 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:51:32,083 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:52:09,402 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:52:09,621 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:52:09,667 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 09:54:36,422 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 09:54:36,703 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 09:54:36,734 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 10:46:02,072 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 10:46:02,272 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 10:46:02,309 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 10:47:12,545 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 10:47:12,790 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 10:47:12,826 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 10:59:11,478 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 10:59:11,735 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 10:59:11,771 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:17:30,812 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:17:31,070 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:17:31,117 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:18:01,104 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:18:01,304 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:18:01,353 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:18:18,610 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:18:18,876 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:18:18,920 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:18:28,965 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:18:29,157 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:18:29,193 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:18:55,439 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:18:55,654 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:18:55,696 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:19:14,661 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:19:14,888 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:19:14,926 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:19:43,457 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:19:43,726 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:19:43,774 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 11:25:50,421 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 11:25:50,644 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 11:25:50,680 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:34:57,549 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:34:58,460 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:34:58,550 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:37:22,808 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:37:23,048 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:37:23,085 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:38:59,129 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:38:59,361 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:38:59,405 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:49:00,777 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:49:01,012 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:49:01,053 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:49:55,029 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:49:55,229 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:49:55,266 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:50:06,547 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:50:06,774 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:50:06,811 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:50:35,467 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:50:35,737 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:50:35,778 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:51:38,580 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:51:38,931 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:51:39,020 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:51:59,098 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:51:59,411 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:51:59,453 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:52:47,119 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:52:47,326 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:52:47,362 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:53:40,290 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:53:40,508 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:53:40,544 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:54:22,779 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:54:23,000 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:54:23,036 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:56:25,521 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:56:25,745 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:56:25,783 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:57:32,731 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:57:33,530 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:57:33,752 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:58:30,451 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:58:30,707 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:58:30,757 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:58:59,318 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:58:59,686 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:58:59,722 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 20:59:40,096 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 20:59:40,336 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 20:59:40,374 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:00:37,521 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:00:37,748 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:00:37,785 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:01:48,560 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:01:48,787 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:01:48,828 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:03:44,761 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:03:45,017 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:03:45,069 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:04:15,954 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:04:16,175 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:04:16,211 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:08:41,761 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:08:42,043 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:08:42,083 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:12:03,791 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:12:04,106 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:12:04,164 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:12:27,368 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:12:27,583 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:12:27,620 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:14:11,591 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:14:11,859 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:14:11,902 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:15:14,904 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:15:15,135 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:15:15,172 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:17:48,076 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:17:48,553 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:17:48,658 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:18:08,244 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:18:08,457 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:18:08,493 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:22:07,275 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:22:07,490 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:22:07,526 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:30:16,358 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:30:16,577 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:30:16,613 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:32:17,081 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:32:17,279 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:32:17,317 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:36:46,195 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:36:46,398 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:36:46,435 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:37:25,143 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:37:25,359 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:37:25,395 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:43:00,898 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:43:01,106 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:43:01,142 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 21:43:37,155 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 21:43:37,962 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 21:43:38,040 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:00:00,217 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:00:00,475 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:00:00,523 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:01:24,756 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:01:24,965 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:01:25,003 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:03:13,148 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:03:13,588 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:03:13,633 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:05:44,565 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:05:44,779 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:05:44,815 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:07:39,050 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:07:39,275 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:07:39,312 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:09:00,218 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:09:00,463 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:09:00,500 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:09:33,566 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:09:33,769 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:09:33,806 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:11:07,832 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:11:08,064 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:11:08,104 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:12:10,410 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:12:10,643 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:12:10,679 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:12:29,394 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:12:29,617 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:12:29,662 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:14:25,065 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:15:06,031 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:15:06,493 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:15:06,550 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:17:27,996 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:17:28,241 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:17:28,290 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:18:01,016 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:18:01,225 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:18:01,263 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:18:39,861 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:18:40,111 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:18:40,148 - oauth2client.client - INFO - Refreshing access_token
+2022-09-24 22:19:21,096 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-24 22:19:21,311 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-24 22:19:21,349 - oauth2client.client - INFO - Refreshing access_token
