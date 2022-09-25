@@ -1,14 +1,16 @@
 from aiogram import Bot, Dispatcher, types
 import json
+from data.config import logger
+from google_sheets.google_sheets import add_data_to_personal_table
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton
 
 TOKEN = "5738031171:AAEBv4hUujqqpRpApztI0ay29IsvQYt4JQM"
 
-# session_storage = {}
-# parsed_data = {}
-# current_state = 0
-# is_on_edit = 0
-# editing_task = ''
+button1 = KeyboardButton('1')
+button2 = KeyboardButton('2')
+button3 = KeyboardButton('3')
+button4 = KeyboardButton('4')
+button_accept = KeyboardButton('Да')
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
@@ -64,6 +66,14 @@ class UserData:
     def get_dict(self):
         return {'name': self.name, "grade": self.grade, "parsed_data": self.tasks}
 
+    def get_sheets_format(self):
+        res = {}
+        res.update({'name': self.name})
+        res.update({"grade": self.grade})
+        for key, value in self.tasks.items():
+            res.update({key, value})
+        return res
+
 
 class Storage:
     def __init__(self):
@@ -78,12 +88,19 @@ class Storage:
     def push(self):
         result = {}
         for user, data in self.dct.items():
-            result.update({user: data.create_dict()})
+            result.update({user: data.get_dict()})
         with open('telegram_bot/params.json', 'a') as f:
             f.write(json.dumps(result))
 
 
 storage = Storage()
+
+
+@dp.message_handler(commands=['skip'])
+async def skip(message: types.Message):
+    user = message.from_user.id
+    data = storage.get_user(user)
+    data.set_state(21)
 
 
 @dp.message_handler(commands=["start", "help"])
@@ -116,15 +133,15 @@ async def add_new_variant(message: types.Message):
     data.set_state(1)
 
 
-@dp.message_handler(commands=['push', 'send', 'отправить', 'пуш', 'закончил', 'да'])
+@dp.message_handler(commands=['push', 'send', 'да'])
 async def push(message: types.Message):
     user = message.from_user.id
     data = storage.get_user(user)
     current_state = data.get_state()
-    parsed_data = data.get_dict()
     if current_state >= 20:
-        print(parsed_data)
-        send_to_sheets(data.get_dict())
+        storage.push()
+        print(data.get_sheets_format())
+        send_to_sheets(data.get_sheets_format())
         await send_message(user, 'Ваши баллы были загружены. Хорошего дня!')
         data.set_state(0)
         data.clear_all()
@@ -132,13 +149,13 @@ async def push(message: types.Message):
         await send_message(user, 'Сначала заполните все поля варианта')
 
 
-@dp.message_handler(commands=["check", 'баллы', 'чекнуть'])
+@dp.message_handler(commands=["check"])
 async def check(message: types.Message):
     user = message.from_user.id
     data = storage.get_user(user)
     parsed_data = data.get_tasks()
     await send_message(message.from_user.id, reformat_dict(parsed_data))
-    print(reformat_dict(parsed_data))
+    logger.info(reformat_dict(parsed_data))
 
 
 @dp.message_handler(commands=["editvariant"])
@@ -158,7 +175,6 @@ async def handle(message: types.Message):
     text = message.text
     user = message.from_user.id
     print(user, message.from_user.first_name, text)
-    print()
     data = storage.get_user(user)
     current_state = data.get_state()
     is_on_edit = data.get_edit_state()
@@ -183,60 +199,46 @@ async def handle(message: types.Message):
             data.set_grade(text)
             await send_message(user, f'Введите баллы за {current_state - 1} задание')
             data.set_state(data.get_state() + 1)
-        elif current_state == 3:
-            await ask_task(user, text)
-        elif current_state == 4:
-            await ask_task(user, text)
-        elif current_state == 5:
-            await ask_task(user, text)
-        elif current_state == 6:
-            await ask_task(user, text)
-        elif current_state == 7:
-            await ask_task(user, text)
-        elif current_state == 8:
-            await ask_task(user, text)
-        elif current_state == 9:
-            await ask_task(user, text)
-        elif current_state == 10:
-            await ask_task(user, text)
-        elif current_state == 11:
-            await ask_task(user, text)
-        elif current_state == 12:
-            await ask_task(user, text)
-        elif current_state == 13:
-            await ask_task(user, text)
-        elif current_state == 14:
-            await ask_task(user, text)
-        elif current_state == 15:
-            await ask_task(user, text)
-        elif current_state == 16:
-            await ask_task(user, text)
-        elif current_state == 17:
-            await ask_task(user, text)
-        elif current_state == 18:
-            await ask_task(user, text)
-        elif current_state == 19:
-            await ask_task(user, text)
+        elif current_state in range(3, 20):
+            reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
+            if current_state in range(3, 13):
+                reply_markup.add(button1)
+            elif current_state in range(13, 16):
+                reply_markup.add(button1)
+                reply_markup.add(button2)
+            elif current_state in range(16, 18):
+                reply_markup.add(button1)
+                reply_markup.add(button2)
+                reply_markup.add(button3)
+            else:
+                reply_markup.add(button1)
+                reply_markup.add(button2)
+                reply_markup.add(button3)
+                reply_markup.add(button4)
+            await ask_task(user, text, markup=reply_markup)
         elif current_state == 20:
             data.update_task(str(current_state - 2), text)
-            await send_message(user,
-                               f'Данные введены верно?\n\n{data.name}\n{data.grade}\n{reformat_dict(data.get_tasks())}\n'
-                               f'\nЕсли все правильно, '
-                               f'напишите: "да"')
+            reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
+            reply_markup.add(button_accept)
+            await bot.send_message(user,
+                                   f'Данные введены верно?\n\n{data.name}; Класс: {data.grade}\n'
+                                   f'{reformat_dict(data.get_tasks())}\n'
+                                   f'\nЕсли все правильно, '
+                                   f'напишите: "да"', reply_markup=reply_markup)
             data.set_state(data.get_state() + 1)
         elif current_state == 21 and text.lower() == 'да':
             await push(message)
 
 
 def send_to_sheets(dct):
-    pass
+    add_data_to_personal_table(dct)
 
 
-async def ask_task(user, text):
+async def ask_task(user, text, markup):
     data = storage.get_user(user)
     current_state = data.get_state()
     data.update_task(str(current_state - 2), text)
-    await send_message(user, f'Введите баллы за {current_state - 1} задание')
+    await bot.send_message(user, f'Введите баллы за {current_state - 1} задание', reply_markup=markup)
     data.set_state(data.get_state() + 1)
 
 
