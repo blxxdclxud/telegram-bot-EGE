@@ -1,16 +1,19 @@
 from aiogram import Bot, Dispatcher, types
 import json
 from data.config import logger
-from google_sheets.google_sheets import add_data_to_personal_table
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton
+from google_sheets.google_sheets_handlers import add_data_to_personal_table
 
 TOKEN = "5738031171:AAEBv4hUujqqpRpApztI0ay29IsvQYt4JQM"
 
+button0 = KeyboardButton('0')
 button1 = KeyboardButton('1')
 button2 = KeyboardButton('2')
 button3 = KeyboardButton('3')
 button4 = KeyboardButton('4')
 button_accept = KeyboardButton('Да')
+button_11a = KeyboardButton('11А')
+button_11b = KeyboardButton('11Б')
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
@@ -43,7 +46,7 @@ class UserData:
         self.name = name
 
     def set_grade(self, grade):
-        self.grade = grade
+        self.grade = grade.upper()
 
     def update_task(self, key, val):
         self.tasks.update({key: val})
@@ -71,7 +74,7 @@ class UserData:
         res.update({'name': self.name})
         res.update({"grade": self.grade})
         for key, value in self.tasks.items():
-            res.update({key, value})
+            res.update({key: value})
         return res
 
 
@@ -128,7 +131,7 @@ async def send_welcome(message: types.Message):
 async def add_new_variant(message: types.Message):
     user = message.from_user.id
     await send_message(user, 'Давайте начнем!')
-    await send_message(user, 'Введите ФИО')
+    await send_message(user, 'Введите ФИ')
     data = storage.get_user(user)
     data.set_state(1)
 
@@ -142,7 +145,7 @@ async def push(message: types.Message):
         storage.push()
         print(data.get_sheets_format())
         send_to_sheets(data.get_sheets_format())
-        await send_message(user, 'Ваши баллы были загружены. Хорошего дня!')
+        await bot.send_message(user, 'Ваши баллы были загружены. Хорошего дня!')
         data.set_state(0)
         data.clear_all()
     else:
@@ -155,7 +158,7 @@ async def check(message: types.Message):
     data = storage.get_user(user)
     parsed_data = data.get_tasks()
     await send_message(message.from_user.id, reformat_dict(parsed_data))
-    logger.info(reformat_dict(parsed_data))
+    print(reformat_dict(parsed_data))
 
 
 @dp.message_handler(commands=["editvariant"])
@@ -188,29 +191,41 @@ async def handle(message: types.Message):
         if current_state < 20:
             await send_message(user, f'Введите баллы за {current_state - 2} задание')
         else:
-            await send_message(user, f'Если все правильно, напишите: "да"')
+            reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
+            reply_markup.add(button_accept)
+            await bot.send_message(user, f'Если все правильно, напишите: "да"', reply_markup=reply_markup)
         data.set_edit_state(0)
     else:
         if current_state == 1:
             data.set_name(text)
-            await send_message(user, f'Теперь введите свой класс(11А или 11Б)')
+            reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
+            reply_markup.add(button_11a)
+            reply_markup.add(button_11b)
+            await bot.send_message(user, f'Теперь введите свой класс(11А или 11Б)', reply_markup=reply_markup)
             data.set_state(data.get_state() + 1)
         elif current_state == 2:
+            reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
+            reply_markup.add(button0)
+            reply_markup.add(button1)
             data.set_grade(text)
-            await send_message(user, f'Введите баллы за {current_state - 1} задание')
+            await bot.send_message(user, f'Введите баллы за {current_state - 1} задание', reply_markup=reply_markup)
             data.set_state(data.get_state() + 1)
         elif current_state in range(3, 20):
             reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
             if current_state in range(3, 13):
+                reply_markup.add(button0)
                 reply_markup.add(button1)
             elif current_state in range(13, 16):
+                reply_markup.add(button0)
                 reply_markup.add(button1)
                 reply_markup.add(button2)
             elif current_state in range(16, 18):
+                reply_markup.add(button0)
                 reply_markup.add(button1)
                 reply_markup.add(button2)
                 reply_markup.add(button3)
             else:
+                reply_markup.add(button0)
                 reply_markup.add(button1)
                 reply_markup.add(button2)
                 reply_markup.add(button3)
@@ -227,10 +242,12 @@ async def handle(message: types.Message):
                                    f'напишите: "да"', reply_markup=reply_markup)
             data.set_state(data.get_state() + 1)
         elif current_state == 21 and text.lower() == 'да':
+            await send_message(user, "Таблица заполняется, минуточку...")
             await push(message)
 
 
 def send_to_sheets(dct):
+    print(123, dct)
     add_data_to_personal_table(dct)
 
 
