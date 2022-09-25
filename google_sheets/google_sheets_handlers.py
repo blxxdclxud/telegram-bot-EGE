@@ -124,7 +124,7 @@ def add_data_to_personal_table(data):
     sheet_metadata = service.spreadsheets().get(spreadsheetId=SPREADSHEET_ID).execute()
     sheets = sheet_metadata.get('sheets', '')
     sheets_names = [sheet["properties"]["title"] for sheet in sheets]
-    print(sheets)
+    # print(sheets)
 
     if _name not in sheets_names:
         requests = [{

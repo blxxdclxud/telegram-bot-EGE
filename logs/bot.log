@@ -12865,3 +12865,131 @@ Traceback (most recent call last):
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\googleapiclient\http.py", line 938, in execute
     raise HttpError(resp, content, uri=self.uri)
 googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Ðàìèëü sucks some dick'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Ðàìèëü sucks some dick'!A3:S3], but tried writing to column [T]">
+2022-09-26 00:43:43,163 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 00:43:43,904 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:43:44,323 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 00:43:44,323 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 00:45:24,951 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 00:45:25,008 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 00:45:56,333 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 00:45:56,333 - aiogram - WARNING - Goodbye!
+2022-09-26 00:45:58,512 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 00:46:00,505 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:46:01,019 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 00:46:01,019 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 00:46:51,156 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 00:46:51,206 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 00:51:09,919 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 00:51:09,919 - aiogram - WARNING - Goodbye!
+2022-09-26 00:51:12,128 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 00:51:13,229 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:51:13,642 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 00:51:13,642 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 00:51:47,833 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 00:51:47,892 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 00:57:43,309 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 00:57:43,309 - aiogram - WARNING - Goodbye!
+2022-09-26 00:57:45,489 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 00:57:46,244 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:57:46,749 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 00:57:46,749 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 01:00:43,945 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 01:00:43,945 - aiogram - WARNING - Goodbye!
+2022-09-26 01:00:46,120 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 01:00:47,077 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:00:47,587 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 01:00:47,587 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 01:00:50,871 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 136, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-26 01:00:53,634 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 183, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 01:02:02,840 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 01:02:02,893 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 01:04:50,363 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 01:04:50,363 - aiogram - WARNING - Goodbye!
+2022-09-26 01:10:02,422 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 01:10:03,318 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:10:03,723 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 01:10:03,731 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 01:14:23,341 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 01:14:23,341 - aiogram - WARNING - Goodbye!
+2022-09-26 01:14:25,472 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 01:14:26,069 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:14:26,578 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 01:14:26,578 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 01:16:12,918 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 01:16:12,918 - aiogram - WARNING - Goodbye!
+2022-09-26 01:16:14,970 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 01:16:16,041 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:16:16,559 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 01:16:16,559 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 01:16:17,576 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 139, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-26 01:16:20,871 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 186, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 01:16:32,740 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 01:16:32,740 - aiogram - WARNING - Goodbye!
+2022-09-26 01:16:34,546 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 01:16:35,189 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:16:35,598 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 01:16:35,606 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 01:17:06,645 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 01:17:06,702 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 01:18:58,762 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 01:18:58,762 - aiogram - WARNING - Goodbye!
