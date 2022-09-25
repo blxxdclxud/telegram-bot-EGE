@@ -6956,3 +6956,1866 @@ TypeError: add_new_variant() takes 0 positional arguments but 1 was given
 2022-09-24 22:19:21,096 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
 2022-09-24 22:19:21,311 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
 2022-09-24 22:19:21,349 - oauth2client.client - INFO - Refreshing access_token
+2022-09-25 00:38:45,535 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 00:38:45,652 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 00:38:45,653 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 10:23:24,283 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 559, in _request
+    await resp.start(conn)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client_reqrep.py", line 893, in start
+    with self._timer:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-09-25 10:23:29,381 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2022-09-25 10:23:34,442 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2022-09-25 10:23:39,452 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2022-09-25 10:23:44,467 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2022-09-25 10:23:50,144 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 986, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1064, in create_connection
+    raise exceptions[0]
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1049, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 960, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 705, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 817, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 604, in finish_connect
+    ov.getresult()
+ConnectionAbortedError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 992, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Подключение к сети было разорвано локальной системой]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Подключение к сети было разорвано локальной системой]
+2022-09-25 10:23:55,184 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 986, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore[return-value]  # noqa
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1064, in create_connection
+    raise exceptions[0]
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1049, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 960, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 705, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 817, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 604, in finish_connect
+    ov.getresult()
+OSError: [WinError 1231] Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1206, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 1175, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\noitu\AppData\Roaming\Python\Python310\site-packages\aiohttp\connector.py", line 992, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2022-09-25 10:28:41,101 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 10:28:41,102 - aiogram - WARNING - Goodbye!
+2022-09-25 11:23:00,535 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:23:00,946 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:23:00,946 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:23:06,151 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:23:16,355 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:23:26,538 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:23:36,688 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:23:46,853 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:23:57,014 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:24:07,419 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:24:19,987 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:24:30,269 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:24:40,430 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:24:50,591 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:25:00,754 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:25:10,917 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:25:21,078 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:25:31,226 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:25:41,365 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:25:51,563 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:26:01,715 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:26:11,882 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:26:22,051 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:26:32,237 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:26:42,391 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:26:52,565 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:27:02,815 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:27:12,993 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:27:23,157 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:27:33,296 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:27:43,451 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:27:53,591 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:28:03,744 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:28:13,907 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:28:24,063 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:28:34,240 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:28:44,411 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:28:54,558 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:29:04,713 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:29:14,881 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:29:25,041 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:29:35,214 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:29:45,448 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:29:55,638 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:30:06,142 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:30:16,309 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:30:26,463 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:30:36,627 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:30:46,825 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:30:56,974 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:31:07,125 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:31:17,298 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:31:27,486 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:31:37,640 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:31:47,795 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:31:58,000 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:32:08,163 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:32:18,283 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:32:28,451 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:32:38,894 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:32:49,037 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:32:59,189 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:33:09,334 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:33:19,505 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:33:29,652 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:33:40,135 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:33:50,287 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:34:00,466 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:34:10,619 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:34:20,801 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:34:30,945 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:34:41,094 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:34:43,055 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:34:43,057 - aiogram - WARNING - Goodbye!
+2022-09-25 11:34:44,915 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:34:45,036 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:34:45,037 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:34:50,848 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:01,173 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:11,335 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:21,481 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:31,620 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:38,561 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageTextIsEmpty('Message text is empty')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 54, in check
+    await send_message(message.from_user.id, reformat_dict(session_storage))
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 181, in send_message
+    await bot.send_message(user, message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
+2022-09-25 11:35:41,785 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:49,725 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageTextIsEmpty('Message text is empty')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 54, in check
+    await send_message(message.from_user.id, reformat_dict(session_storage))
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 181, in send_message
+    await bot.send_message(user, message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
+2022-09-25 11:35:51,945 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:35:53,169 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:35:53,169 - aiogram - WARNING - Goodbye!
+2022-09-25 11:35:55,324 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:35:55,437 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:35:55,438 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:36:00,952 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:36:11,111 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:36:21,275 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:36:31,434 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:36:41,586 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:36:48,737 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:36:48,737 - aiogram - WARNING - Goodbye!
+2022-09-25 11:37:24,008 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:37:24,123 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:37:24,123 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:37:29,334 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:37:39,544 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-25 11:37:43,489 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:37:43,490 - aiogram - WARNING - Goodbye!
+2022-09-25 11:48:51,314 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:48:51,434 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:48:51,434 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:51:27,710 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:51:27,710 - aiogram - WARNING - Goodbye!
+2022-09-25 11:51:29,313 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:51:29,432 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:51:29,432 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:51:46,933 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:51:46,934 - aiogram - WARNING - Goodbye!
+2022-09-25 11:51:47,761 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:51:47,876 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:51:47,876 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:52:10,389 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:52:10,390 - aiogram - WARNING - Goodbye!
+2022-09-25 11:52:11,310 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:52:11,425 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:52:11,426 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 11:52:48,903 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 11:52:48,903 - aiogram - WARNING - Goodbye!
+2022-09-25 11:52:49,734 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 11:52:49,848 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 11:52:49,849 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 14:09:05,635 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 14:09:05,844 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 14:09:05,844 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 14:09:10,762 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 116, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-25 14:09:12,914 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 160, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:09:18,331 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 160, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:09:19,903 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 160, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:09:20,789 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 160, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:10:03,309 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 14:10:03,309 - aiogram - WARNING - Goodbye!
+2022-09-25 14:10:10,659 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 14:10:10,861 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 14:10:10,861 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 14:10:15,369 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 116, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-25 14:10:19,189 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 161, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:10:25,553 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 161, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:11:09,528 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 14:11:09,533 - aiogram - WARNING - Goodbye!
+2022-09-25 14:11:12,303 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 14:11:12,507 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 14:11:12,508 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 14:11:15,144 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 116, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-25 14:11:18,652 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 161, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-25 14:11:32,790 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 14:11:32,790 - aiogram - WARNING - Goodbye!
+2022-09-25 14:12:13,743 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 14:12:13,947 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 14:12:13,948 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 14:14:25,848 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 14:14:25,848 - aiogram - WARNING - Goodbye!
+2022-09-25 14:19:27,415 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-09-25 14:19:27,624 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-25 14:19:27,624 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-25 14:20:56,972 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-123' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageTextIsEmpty('Message text is empty')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 139, in check
+    await send_message(message.from_user.id, reformat_dict(parsed_data))
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 246, in send_message
+    await bot.send_message(user, message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
+2022-09-25 14:22:32,082 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-25 14:22:32,082 - aiogram - WARNING - Goodbye!

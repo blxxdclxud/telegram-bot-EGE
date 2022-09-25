@@ -15,15 +15,15 @@ def update_json_data(data):
     get_json_data()
 
 
-CREDENTIALS_FILE = "C:\\Users\\Admin\\PycharmProjects\\telegram-EGE\\data\\creds.json"
+CREDENTIALS_FILE = "C:\\Users\\noitu\\work\\PycharmProjects\\telegram-EGE\\data\\creds.json"
 SPREADSHEET_ID = "10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0"
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
-                    filename='C:\\Users\\Admin\\PycharmProjects\\telegram-EGE\\logs\\bot.log')
+                    filename='C:\\Users\\noitu\\work\\PycharmProjects\\telegram-EGE\\logs\\bot.log')
 logger = logging.getLogger(__name__)
 
-TABLE_DATA_FILE = "C:\\Users\\Admin\\PycharmProjects\\telegram-EGE\\data\\table_data.json"
+TABLE_DATA_FILE = "C:\\Users\\noitu\\work\\PycharmProjects\\telegram-EGE\\data\\table_data.json"
 
 TABLE_DATA = None
 
