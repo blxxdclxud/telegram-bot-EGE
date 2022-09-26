@@ -160,7 +160,7 @@ async def push(message: types.Message):
     if current_state >= 20:
         # storage.push()
         reply_markup = ReplyKeyboardRemove()
-        print(data.get_sheets_format())
+        # print(data.get_sheets_format())
         send_to_sheets(data.get_sheets_format())
         await bot.send_message(user, 'Ваши баллы были загружены. Хорошего дня!', reply_markup=reply_markup)
         data.set_state(0)
@@ -175,7 +175,7 @@ async def check(message: types.Message):
     data = storage.get_user(user)
     parsed_data = data.get_tasks()
     await send_message(message.from_user.id, reformat_dict(parsed_data))
-    print(reformat_dict(parsed_data))
+    # print(reformat_dict(parsed_data))
 
 
 @dp.message_handler(commands=["editvariant"])
@@ -194,7 +194,7 @@ async def edit_existing_variant(message: types.Message):
 async def handle(message: types.Message):
     text = message.text
     user = message.from_user.id
-    print(user, message.from_user.first_name, text)
+    logger.info(user, message.from_user.first_name, text)
     data = storage.get_user(user)
     current_state = data.get_state()
     is_on_edit = data.get_edit_state()
@@ -220,10 +220,10 @@ async def handle(message: types.Message):
         if current_state == 1:
             data.set_name(text)
             students.update({user: text})
-            print(students)
+            # print(students)
             with open("telegram_bot/students.json", 'w') as f:
                 json.dump(students, f)
-            print('done')
+            # print('done')
             reply_markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
             reply_markup.add(button_11a)
             reply_markup.add(button_11b)
@@ -267,7 +267,6 @@ async def handle(message: types.Message):
 
 
 def send_to_sheets(dct):
-    print(123, dct)
     add_data_to_personal_table(dct)
 
 

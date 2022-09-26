@@ -11201,13 +11201,13 @@ ValueError: dictionary update sequence element #0 has length 1; 2 is required
 2022-09-25 22:26:58,225 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 22:26:58,225 - aiogram - WARNING - Goodbye!
 2022-09-25 22:50:54,498 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 22:50:54,966 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 22:50:54,966 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 22:50:55,201 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 22:50:55,201 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 22:52:42,669 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 22:52:42,669 - aiogram - WARNING - Goodbye!
 2022-09-25 22:52:47,309 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 22:52:49,847 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 22:52:49,847 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 22:52:50,382 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 22:52:50,382 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:04:32,249 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
@@ -11232,7 +11232,7 @@ asyncio.exceptions.TimeoutError
 2022-09-25 23:05:35,259 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:05:35,259 - aiogram - WARNING - Goodbye!
 2022-09-25 23:05:38,507 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 23:05:38,896 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 23:05:38,896 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 23:05:39,115 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 23:05:39,115 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:05:46,788 - asyncio - ERROR - Task exception was never retrieved
@@ -11270,13 +11270,13 @@ AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-25 23:06:42,368 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:06:42,368 - aiogram - WARNING - Goodbye!
 2022-09-25 23:06:45,442 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 23:06:45,875 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 23:06:45,875 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 23:06:46,079 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 23:06:46,080 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:10:31,285 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:10:31,285 - aiogram - WARNING - Goodbye!
 2022-09-25 23:10:34,488 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 23:10:35,082 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 23:10:35,082 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 23:10:35,285 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 23:10:35,285 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:10:52,170 - asyncio - ERROR - Task exception was never retrieved
@@ -11350,13 +11350,13 @@ ValueError: dictionary update sequence element #0 has length 1; 2 is required
 2022-09-25 23:16:07,116 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:16:07,116 - aiogram - WARNING - Goodbye!
 2022-09-25 23:16:09,504 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 23:16:09,911 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 23:16:09,911 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 23:16:10,098 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 23:16:10,098 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:35:40,704 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:35:40,704 - aiogram - WARNING - Goodbye!
 2022-09-25 23:35:43,907 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 23:35:44,470 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 23:35:44,470 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 23:35:44,657 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 23:35:44,657 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:36:39,147 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -11364,7 +11364,7 @@ ValueError: dictionary update sequence element #0 has length 1; 2 is required
 2022-09-25 23:42:52,328 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:42:52,329 - aiogram - WARNING - Goodbye!
 2022-09-25 23:42:56,685 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-25 23:42:57,166 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-25 23:42:57,166 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-25 23:42:57,620 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-25 23:42:57,620 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-25 23:42:58,352 - asyncio - ERROR - Task exception was never retrieved
@@ -11496,7 +11496,7 @@ AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-25 23:53:37,420 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-25 23:53:37,432 - aiogram - WARNING - Goodbye!
 2022-09-26 00:07:38,850 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 00:07:39,335 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:07:39,335 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 00:07:39,569 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 00:07:39,569 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 00:08:06,488 - asyncio - ERROR - Task exception was never retrieved
@@ -11550,7 +11550,7 @@ Traceback (most recent call last):
     current_state = data.get_state()
 AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-26 00:13:04,656 - asyncio - ERROR - Task exception was never retrieved
-future: <Task finished name='Task-1006' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]">>
+future: <Task finished name='Task-1006' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]">>
 Traceback (most recent call last):
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
     for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
@@ -11574,7 +11574,7 @@ Traceback (most recent call last):
     return wrapped(*args, **kwargs)
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\googleapiclient\http.py", line 938, in execute
     raise HttpError(resp, content, uri=self.uri)
-googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]">
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]">
 2022-09-26 00:13:20,817 - asyncio - ERROR - Task exception was never retrieved
 future: <Task finished name='Task-1010' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
 Traceback (most recent call last):
@@ -11656,7 +11656,7 @@ Traceback (most recent call last):
     current_state = data.get_state()
 AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-26 00:14:16,842 - asyncio - ERROR - Task exception was never retrieved
-future: <Task finished name='Task-1041' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]">>
+future: <Task finished name='Task-1041' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]">>
 Traceback (most recent call last):
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
     for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
@@ -11680,9 +11680,9 @@ Traceback (most recent call last):
     return wrapped(*args, **kwargs)
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\googleapiclient\http.py", line 938, in execute
     raise HttpError(resp, content, uri=self.uri)
-googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]">
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]">
 2022-09-26 00:14:18,208 - asyncio - ERROR - Task exception was never retrieved
-future: <Task finished name='Task-1045' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]">>
+future: <Task finished name='Task-1045' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]">>
 Traceback (most recent call last):
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
     for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
@@ -11706,7 +11706,7 @@ Traceback (most recent call last):
     return wrapped(*args, **kwargs)
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\googleapiclient\http.py", line 938, in execute
     raise HttpError(resp, content, uri=self.uri)
-googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Äà'!A3:S3], but tried writing to column [T]">
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½'!A3:S3], but tried writing to column [T]">
 2022-09-26 00:14:20,343 - asyncio - ERROR - Task exception was never retrieved
 future: <Task finished name='Task-1053' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
 Traceback (most recent call last):
@@ -12840,7 +12840,7 @@ Traceback (most recent call last):
     raise err(cls.text or description)
 aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
 2022-09-26 00:18:02,196 - asyncio - ERROR - Task exception was never retrieved
-future: <Task finished name='Task-1788' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Ðàìèëü sucks some dick'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Ðàìèëü sucks some dick'!A3:S3], but tried writing to column [T]">>
+future: <Task finished name='Task-1788' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ sucks some dick'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ sucks some dick'!A3:S3], but tried writing to column [T]">>
 Traceback (most recent call last):
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
     for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
@@ -12864,9 +12864,460 @@ Traceback (most recent call last):
     return wrapped(*args, **kwargs)
   File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\googleapiclient\http.py", line 938, in execute
     raise HttpError(resp, content, uri=self.uri)
-googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['Ðàìèëü sucks some dick'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['Ðàìèëü sucks some dick'!A3:S3], but tried writing to column [T]">
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0/values:batchUpdate?alt=json returned "Invalid data[0]: Requested writing within range ['ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ sucks some dick'!A3:S3], but tried writing to column [T]". Details: "Invalid data[0]: Requested writing within range ['ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ sucks some dick'!A3:S3], but tried writing to column [T]">
+2022-09-26 00:27:09,571 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 00:27:09,572 - aiogram - WARNING - Goodbye!
+2022-09-26 13:33:36,725 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:33:37,303 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
+2022-09-26 13:33:37,584 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:33:37,584 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:33:38,196 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:33:39,117 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:33:43,960 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-26 13:34:20,768 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:34:20,768 - aiogram - WARNING - Goodbye!
+2022-09-26 13:34:23,768 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:34:24,158 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
+2022-09-26 13:34:24,380 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:34:24,380 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:35:16,074 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:17,199 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:17,433 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:17,683 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:17,902 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:18,120 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:21,256 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:21,476 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:21,755 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:22,114 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:24,271 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:28,430 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:30,340 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-51' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:31,480 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:32,086 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-57' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:32,398 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-60' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:32,695 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-63' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:33,008 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-66' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:33,414 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-69' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:33,726 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-72' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:34,351 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-75' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:35:36,182 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-78' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:40:57,905 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:40:57,905 - aiogram - WARNING - Goodbye!
+2022-09-26 13:41:00,895 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:41:01,349 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
+2022-09-26 13:41:01,594 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:41:01,594 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:42:49,566 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 136, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-26 13:42:56,322 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_state'")>
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Admin\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 182, in handle
+    current_state = data.get_state()
+AttributeError: 'NoneType' object has no attribute 'get_state'
+2022-09-26 13:47:57,997 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:47:57,997 - aiogram - WARNING - Goodbye!
 2022-09-26 00:43:43,163 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 00:43:43,904 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:43:43,904 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 00:43:44,323 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 00:43:44,323 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 00:45:24,951 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -12874,7 +13325,7 @@ googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.
 2022-09-26 00:45:56,333 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 00:45:56,333 - aiogram - WARNING - Goodbye!
 2022-09-26 00:45:58,512 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 00:46:00,505 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:46:00,505 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 00:46:01,019 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 00:46:01,019 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 00:46:51,156 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -12882,7 +13333,7 @@ googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.
 2022-09-26 00:51:09,919 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 00:51:09,919 - aiogram - WARNING - Goodbye!
 2022-09-26 00:51:12,128 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 00:51:13,229 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:51:13,229 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 00:51:13,642 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 00:51:13,642 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 00:51:47,833 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -12890,13 +13341,13 @@ googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sheets.
 2022-09-26 00:57:43,309 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 00:57:43,309 - aiogram - WARNING - Goodbye!
 2022-09-26 00:57:45,489 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 00:57:46,244 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 00:57:46,244 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 00:57:46,749 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 00:57:46,749 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 01:00:43,945 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:00:43,945 - aiogram - WARNING - Goodbye!
 2022-09-26 01:00:46,120 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 01:00:47,077 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:00:47,077 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 01:00:47,587 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 01:00:47,587 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 01:00:50,871 - asyncio - ERROR - Task exception was never retrieved
@@ -12936,19 +13387,19 @@ AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-26 01:04:50,363 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:04:50,363 - aiogram - WARNING - Goodbye!
 2022-09-26 01:10:02,422 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 01:10:03,318 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:10:03,318 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 01:10:03,723 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 01:10:03,731 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 01:14:23,341 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:14:23,341 - aiogram - WARNING - Goodbye!
 2022-09-26 01:14:25,472 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 01:14:26,069 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:14:26,069 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 01:14:26,578 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 01:14:26,578 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 01:16:12,918 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:16:12,918 - aiogram - WARNING - Goodbye!
 2022-09-26 01:16:14,970 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 01:16:16,041 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:16:16,041 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 01:16:16,559 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 01:16:16,559 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 01:16:17,576 - asyncio - ERROR - Task exception was never retrieved
@@ -12986,7 +13437,7 @@ AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-26 01:16:32,740 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:16:32,740 - aiogram - WARNING - Goodbye!
 2022-09-26 01:16:34,546 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 01:16:35,189 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 01:16:35,189 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 01:16:35,598 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 01:16:35,606 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 01:17:06,645 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -12994,7 +13445,7 @@ AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-26 01:18:58,762 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:18:58,762 - aiogram - WARNING - Goodbye!
 2022-09-26 08:43:34,456 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 08:43:35,130 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 08:43:35,130 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 08:43:35,536 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 08:43:35,536 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 08:46:09,100 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -13061,7 +13512,7 @@ aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
 2022-09-26 09:03:43,340 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
 2022-09-26 09:04:16,779 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
 2022-09-26 09:04:32,343 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 09:04:33,111 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:04:33,111 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 09:04:33,517 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 09:04:33,517 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 09:04:47,555 - asyncio - ERROR - Task exception was never retrieved
@@ -13085,7 +13536,7 @@ AttributeError: 'str' object has no attribute 'write'
 2022-09-26 09:05:28,245 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 09:05:28,245 - aiogram - WARNING - Goodbye!
 2022-09-26 09:05:30,399 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 09:05:31,165 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:05:31,165 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 09:05:31,587 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 09:05:31,587 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 09:05:43,677 - asyncio - ERROR - Task exception was never retrieved
@@ -13109,7 +13560,7 @@ AttributeError: 'str' object has no attribute 'write'
 2022-09-26 09:06:24,943 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 09:06:24,943 - aiogram - WARNING - Goodbye!
 2022-09-26 09:06:26,649 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 09:06:27,199 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:06:27,199 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 09:06:27,593 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 09:06:27,593 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 09:06:40,593 - asyncio - ERROR - Task exception was never retrieved
@@ -13133,7 +13584,7 @@ AttributeError: 'str' object has no attribute 'write'
 2022-09-26 09:08:27,007 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 09:08:27,007 - aiogram - WARNING - Goodbye!
 2022-09-26 09:08:29,067 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 09:08:29,754 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:08:29,754 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 09:08:30,598 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 09:08:30,598 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 09:08:35,290 - asyncio - ERROR - Task exception was never retrieved
@@ -13179,7 +13630,7 @@ TypeError: Object of type TextIOWrapper is not JSON serializable
 2022-09-26 09:09:15,200 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 09:09:15,200 - aiogram - WARNING - Goodbye!
 2022-09-26 09:09:17,351 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 09:09:17,979 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:09:17,979 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 09:09:18,401 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 09:09:18,401 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 09:09:19,216 - asyncio - ERROR - Task exception was never retrieved
@@ -13259,7 +13710,7 @@ TypeError: Object of type UserData is not JSON serializable
 2022-09-26 09:13:44,123 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
 2022-09-26 09:14:08,403 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
 2022-09-26 09:16:30,620 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 09:16:31,239 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:16:31,239 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 09:16:31,649 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 09:16:31,649 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 09:17:07,491 - asyncio - ERROR - Task exception was never retrieved
@@ -13299,13 +13750,13 @@ TypeError: Object of type method is not JSON serializable
 2022-09-26 11:58:52,928 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
 2022-09-26 11:58:52,977 - aiogram - WARNING - Goodbye!
 2022-09-26 11:59:59,222 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 12:00:04,172 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 12:00:04,172 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 12:00:04,588 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 12:00:04,588 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 12:02:23,352 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 12:02:23,354 - aiogram - WARNING - Goodbye!
 2022-09-26 13:24:53,037 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:24:53,934 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:24:53,934 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:24:54,435 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:24:54,435 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:25:12,664 - asyncio - ERROR - Task exception was never retrieved
@@ -13343,7 +13794,7 @@ NameError: name 'students' is not defined
 2022-09-26 13:26:45,045 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:26:45,045 - aiogram - WARNING - Goodbye!
 2022-09-26 13:26:47,087 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:26:47,793 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:26:47,793 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:26:48,306 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:26:48,306 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:27:35,009 - asyncio - ERROR - Task exception was never retrieved
@@ -13377,13 +13828,13 @@ TypeError: Object of type method is not JSON serializable
 2022-09-26 13:31:10,237 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:31:10,237 - aiogram - WARNING - Goodbye!
 2022-09-26 13:32:27,857 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:32:28,379 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:32:28,379 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:32:28,784 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:32:28,784 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:33:04,361 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:33:04,362 - aiogram - WARNING - Goodbye!
 2022-09-26 13:33:07,551 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:33:08,327 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:33:08,327 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:33:09,537 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:33:09,537 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:33:35,337 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
@@ -13404,7 +13855,7 @@ aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupd
 2022-09-26 13:33:44,573 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:33:44,573 - aiogram - WARNING - Goodbye!
 2022-09-26 13:48:14,113 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:48:15,062 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:48:15,062 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:48:15,339 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:48:15,339 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:48:50,718 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
@@ -13412,16 +13863,30 @@ aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupd
 2022-09-26 13:50:28,835 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:50:28,835 - aiogram - WARNING - Goodbye!
 2022-09-26 13:50:42,602 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:50:43,436 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:50:43,436 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:50:43,846 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:50:43,846 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:51:13,077 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:51:13,077 - aiogram - WARNING - Goodbye!
 2022-09-26 13:51:14,860 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2022-09-26 13:51:15,690 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:51:15,690 - aiogram - INFO - Bot: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ [@ege_results_li7_bot]
 2022-09-26 13:51:16,099 - aiogram - WARNING - Updates were skipped successfully.
 2022-09-26 13:51:16,099 - aiogram.dispatcher.dispatcher - INFO - Start polling.
 2022-09-26 13:51:50,947 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
 2022-09-26 13:51:51,006 - oauth2client.client - INFO - Refreshing access_token
 2022-09-26 13:53:26,413 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 13:53:26,413 - aiogram - WARNING - Goodbye!
+2022-09-26 13:56:44,065 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:56:44,717 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:56:44,981 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:56:44,981 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:57:37,005 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:57:37,021 - aiogram - WARNING - Goodbye!
+2022-09-26 13:57:39,872 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:57:40,262 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:57:40,491 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:57:40,491 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:58:32,254 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 13:58:32,290 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 14:13:13,941 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 14:13:13,941 - aiogram - WARNING - Goodbye!

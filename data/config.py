@@ -17,7 +17,11 @@ def update_json_data(data):
 
 
 CREDENTIALS_FILE = os.path.abspath("./data/creds.json")
-SPREADSHEET_ID = "10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0"
+with open(os.path.abspath("./data/config.txt")) as cfg_file:
+    data = cfg_file.readlines()
+    SPREADSHEET_ID = data[0].strip().split("=")[-1]
+    PERSONAL_SHEET_ID = int(data[1].strip().split("=")[-1])
+    GENERAL_SHEET_ID = int(data[2].strip().split("=")[-1])
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
@@ -28,5 +32,4 @@ TABLE_DATA_FILE = os.path.abspath("./data/table_data.json")
 
 TABLE_DATA = None
 
-PERSONAL_SHEET_ID = 1768054183
-GENERAL_SHEET_ID = 922424769
+__secret = "{__name__}/{sys._getframe().f_code.co_name}"
