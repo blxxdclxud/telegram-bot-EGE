@@ -12993,3 +12993,435 @@ AttributeError: 'NoneType' object has no attribute 'get_state'
 2022-09-26 01:17:06,702 - oauth2client.client - INFO - Refreshing access_token
 2022-09-26 01:18:58,762 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 01:18:58,762 - aiogram - WARNING - Goodbye!
+2022-09-26 08:43:34,456 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 08:43:35,130 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 08:43:35,536 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 08:43:35,536 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 08:46:09,100 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 08:46:09,147 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 08:57:44,339 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-170' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageTextIsEmpty('Message text is empty')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 164, in check
+    await send_message(message.from_user.id, reformat_dict(parsed_data))
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 282, in send_message
+    await bot.send_message(user, message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
+2022-09-26 08:58:03,280 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-179' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageTextIsEmpty('Message text is empty')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 164, in check
+    await send_message(message.from_user.id, reformat_dict(parsed_data))
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 282, in send_message
+    await bot.send_message(user, message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 341, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
+2022-09-26 09:03:25,921 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:03:25,921 - aiogram - WARNING - Goodbye!
+2022-09-26 09:03:29,385 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:03:43,340 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:04:16,779 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:04:32,343 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:04:33,111 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:04:33,517 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 09:04:33,517 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 09:04:47,555 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 219, in handle
+    json.dump(students, fp="students.json")
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 180, in dump
+    fp.write(chunk)
+AttributeError: 'str' object has no attribute 'write'
+2022-09-26 09:05:28,245 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:05:28,245 - aiogram - WARNING - Goodbye!
+2022-09-26 09:05:30,399 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:05:31,165 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:05:31,587 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 09:05:31,587 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 09:05:43,677 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 219, in handle
+    json.dump(students, fp="telegram_bot/students.json")
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 180, in dump
+    fp.write(chunk)
+AttributeError: 'str' object has no attribute 'write'
+2022-09-26 09:06:24,943 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:06:24,943 - aiogram - WARNING - Goodbye!
+2022-09-26 09:06:26,649 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:06:27,199 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:06:27,593 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 09:06:27,593 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 09:06:40,593 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'write'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 220, in handle
+    json.dump(students, fp="telegram_bot/students.json")
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 180, in dump
+    fp.write(chunk)
+AttributeError: 'str' object has no attribute 'write'
+2022-09-26 09:08:27,007 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:08:27,007 - aiogram - WARNING - Goodbye!
+2022-09-26 09:08:29,067 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:08:29,754 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:08:30,598 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 09:08:30,598 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 09:08:35,290 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get_tasks'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 181, in edit_existing_variant
+    parsed_data = data.get_tasks()
+AttributeError: 'NoneType' object has no attribute 'get_tasks'
+2022-09-26 09:08:49,942 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('Object of type TextIOWrapper is not JSON serializable')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 221, in handle
+    f.write(json.dumps(f))
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TextIOWrapper is not JSON serializable
+2022-09-26 09:09:15,200 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:09:15,200 - aiogram - WARNING - Goodbye!
+2022-09-26 09:09:17,351 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:09:17,979 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:09:18,401 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 09:09:18,401 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 09:09:19,216 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'set_state'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 148, in add_new_variant
+    data.set_state(1)
+AttributeError: 'NoneType' object has no attribute 'set_state'
+2022-09-26 09:10:17,630 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-106' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('Object of type UserData is not JSON serializable')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 262, in handle
+    await push(message)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 157, in push
+    storage.push()
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 102, in push
+    f.write(json.dumps(result))
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserData is not JSON serializable
+2022-09-26 09:12:14,677 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-115' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('Object of type UserData is not JSON serializable')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 262, in handle
+    await push(message)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 157, in push
+    storage.push()
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 102, in push
+    f.write(json.dumps(result))
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UserData is not JSON serializable
+2022-09-26 09:13:41,778 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:13:41,778 - aiogram - WARNING - Goodbye!
+2022-09-26 09:13:44,123 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:14:08,403 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:16:30,620 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:16:31,239 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 09:16:31,649 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 09:16:31,649 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 09:17:07,491 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-99' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('Object of type method is not JSON serializable')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 262, in handle
+    await push(message)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 157, in push
+    storage.push()
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 102, in push
+    f.write(json.dumps(result))
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type method is not JSON serializable
+2022-09-26 09:18:25,125 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 09:18:25,125 - aiogram - WARNING - Goodbye!
+2022-09-26 09:18:27,350 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 09:18:36,865 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 11:58:44,074 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 11:58:44,165 - aiogram - WARNING - Goodbye!
+2022-09-26 11:58:52,928 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 11:58:52,977 - aiogram - WARNING - Goodbye!
+2022-09-26 11:59:59,222 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 12:00:04,172 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 12:00:04,588 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 12:00:04,588 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 12:02:23,352 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 12:02:23,354 - aiogram - WARNING - Goodbye!
+2022-09-26 13:24:53,037 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:24:53,934 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:24:54,435 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:24:54,435 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:25:12,664 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'students' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 220, in handle
+    students.update({user: text})
+NameError: name 'students' is not defined
+2022-09-26 13:26:10,521 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'students' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 220, in handle
+    students.update({user: text})
+NameError: name 'students' is not defined
+2022-09-26 13:26:45,045 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:26:45,045 - aiogram - WARNING - Goodbye!
+2022-09-26 13:26:47,087 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:26:47,793 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:26:48,306 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:26:48,306 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:27:35,009 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-99' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('Object of type method is not JSON serializable')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 265, in handle
+    await push(message)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 160, in push
+    storage.push()
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 105, in push
+    f.write(json.dumps(result))
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type method is not JSON serializable
+2022-09-26 13:31:10,237 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:31:10,237 - aiogram - WARNING - Goodbye!
+2022-09-26 13:32:27,857 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:32:28,379 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:32:28,784 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:32:28,784 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:33:04,361 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:33:04,362 - aiogram - WARNING - Goodbye!
+2022-09-26 13:33:07,551 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:33:08,327 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:33:09,537 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:33:09,537 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:33:35,337 - aiogram.dispatcher.dispatcher - ERROR - Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+2022-09-26 13:33:44,573 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:33:44,573 - aiogram - WARNING - Goodbye!
+2022-09-26 13:48:14,113 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:48:15,062 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:48:15,339 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:48:15,339 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:48:50,718 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 13:48:50,767 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 13:50:28,835 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:50:28,835 - aiogram - WARNING - Goodbye!
+2022-09-26 13:50:42,602 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:50:43,436 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:50:43,846 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:50:43,846 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:51:13,077 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:51:13,077 - aiogram - WARNING - Goodbye!
+2022-09-26 13:51:14,860 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-26 13:51:15,690 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-26 13:51:16,099 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-26 13:51:16,099 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-26 13:51:50,947 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-26 13:51:51,006 - oauth2client.client - INFO - Refreshing access_token
+2022-09-26 13:53:26,413 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-26 13:53:26,413 - aiogram - WARNING - Goodbye!

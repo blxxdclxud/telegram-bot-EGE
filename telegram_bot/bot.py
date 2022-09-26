@@ -14,6 +14,12 @@ button4 = KeyboardButton('4')
 button_accept = KeyboardButton('Да')
 button_11a = KeyboardButton('11А')
 button_11b = KeyboardButton('11Б')
+students = {}
+try:
+    with open("telegram_bot/students.json") as f:
+        students = json.load(f)
+except:
+    pass
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
@@ -94,7 +100,7 @@ class Storage:
     def push(self):
         result = {}
         for user, data in self.dct.items():
-            result.update({user: data.get_dict()})
+            result.update({user: data.get_sheets_format})
         with open('telegram_bot/params.json', 'a') as f:
             f.write(json.dumps(result))
 
@@ -112,7 +118,6 @@ async def skip(message: types.Message):
 @dp.message_handler(commands=["start", "help"])
 async def send_welcome(message: types.Message):
     user = message.from_user.id
-
     storage.add_user(user)
     await bot.send_message(message.from_user.id,
                            "Это бот для учета результатов по пробникам ЕГЭ по математике.\n"
@@ -133,8 +138,16 @@ async def send_welcome(message: types.Message):
 @dp.message_handler(commands=["addnewvariant"])
 async def add_new_variant(message: types.Message):
     user = message.from_user.id
+    try:
+        name = students[user]
+        name_btn = KeyboardButton(name)
+        markup = ReplyKeyboardMarkup(resize_keyboard=True).add(name_btn)
+    except:
+        markup = None
+    if storage.get_user(user) is None:
+        storage.add_user(user)
     await send_message(user, 'Давайте начнем!')
-    await send_message(user, 'Введите ФИ')
+    await send_message(user, 'Введите ФИ', markup)
     data = storage.get_user(user)
     data.set_state(1)
 
@@ -145,7 +158,7 @@ async def push(message: types.Message):
     data = storage.get_user(user)
     current_state = data.get_state()
     if current_state >= 20:
-        storage.push()
+        # storage.push()
         reply_markup = ReplyKeyboardRemove()
         print(data.get_sheets_format())
         send_to_sheets(data.get_sheets_format())
@@ -206,6 +219,11 @@ async def handle(message: types.Message):
     else:
         if current_state == 1:
             data.set_name(text)
+            students.update({user: text})
+            print(students)
+            with open("telegram_bot/students.json", 'w') as f:
+                json.dump(students, f)
+            print('done')
             reply_markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
             reply_markup.add(button_11a)
             reply_markup.add(button_11b)
