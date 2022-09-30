@@ -13890,3 +13890,99 @@ aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupd
 2022-09-26 13:58:32,290 - oauth2client.client - INFO - Refreshing access_token
 2022-09-26 14:13:13,941 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-26 14:13:13,941 - aiogram - WARNING - Goodbye!
+2022-09-27 17:31:47,607 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-27 17:31:47,664 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-27 17:31:47,730 - aiogram - WARNING - Goodbye!
+2022-09-27 17:32:22,137 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-27 17:32:22,176 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-27 17:32:22,972 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-27 17:32:23,198 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-27 17:32:23,198 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-27 17:33:31,968 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-27 17:33:32,022 - oauth2client.client - INFO - Refreshing access_token
+2022-09-27 17:36:42,112 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-27 17:36:42,113 - aiogram - WARNING - Goodbye!
+2022-09-30 13:27:49,569 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-30 13:27:49,641 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-30 13:27:51,450 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-30 13:27:57,279 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-30 13:27:57,279 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-30 15:19:19,485 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-30 15:19:19,547 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-30 15:19:24,046 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-30 15:19:24,531 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-30 15:19:24,531 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-30 15:20:41,466 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-30 15:20:41,506 - oauth2client.client - INFO - Refreshing access_token
+2022-09-30 15:20:43,897 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-113' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=<HttpError 503 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0?alt=json returned "The service is currently unavailable.". Details: "The service is currently unavailable.">>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 266, in handle
+    await push(message)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 164, in push
+    send_to_sheets(data.get_sheets_format())
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 270, in send_to_sheets
+    add_data_to_personal_table(dct)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\google_sheets\google_sheets_handlers.py", line 124, in add_data_to_personal_table
+    sheet_metadata = service.spreadsheets().get(spreadsheetId=SPREADSHEET_ID).execute()
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\googleapiclient\_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\googleapiclient\http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.googleapis.com/v4/spreadsheets/10CjeiyEPr8R1SVOl5V0vbKMd3RRg4LQq7MVIIlDb0m0?alt=json returned "The service is currently unavailable.". Details: "The service is currently unavailable.">
+2022-09-30 21:44:35,893 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-30 21:44:35,944 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-30 21:44:36,589 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-30 21:44:36,877 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-30 21:44:36,877 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-30 21:45:32,485 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-30 21:45:32,486 - aiogram - WARNING - Goodbye!
+2022-09-30 21:45:36,816 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-30 21:45:36,851 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-30 21:45:37,191 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-30 21:45:37,396 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-30 21:45:37,396 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-30 21:46:31,306 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-30 21:46:31,359 - oauth2client.client - INFO - Refreshing access_token
+2022-09-30 21:46:54,699 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-30 21:46:54,699 - aiogram - WARNING - Goodbye!
+2022-09-30 21:47:26,926 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-09-30 21:47:26,967 - data.config - WARNING - ÁÎÒ ÂÛØÅË Â ÎÍËÀÉÍ!!!
+2022-09-30 21:47:27,272 - aiogram - INFO - Bot: Ðåçóëüòàòû ÅÃÝ [@ege_results_li7_bot]
+2022-09-30 21:47:27,477 - aiogram - WARNING - Updates were skipped successfully.
+2022-09-30 21:47:27,477 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-09-30 21:47:43,350 - data.config - INFO - (362614929, 'äèìà', 'Ëóêèÿíîâ Äìèòðèé')
+2022-09-30 21:47:44,581 - data.config - INFO - (362614929, 'äèìà', '11À')
+2022-09-30 21:47:45,911 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:46,831 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:47,752 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:48,573 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:49,494 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:50,210 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:50,928 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:51,745 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:47:52,360 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:48:01,365 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:48:02,601 - data.config - INFO - (362614929, 'äèìà', '1')
+2022-09-30 21:48:37,827 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:39,362 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:49,090 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:50,114 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:51,037 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:51,651 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:52,368 - data.config - INFO - (362614929, 'äèìà', '2')
+2022-09-30 21:48:53,804 - data.config - INFO - (362614929, 'äèìà', 'Äà')
+2022-09-30 21:48:54,156 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-09-30 21:48:54,209 - oauth2client.client - INFO - Refreshing access_token
+2022-09-30 21:49:04,947 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-09-30 21:49:04,949 - aiogram - WARNING - Goodbye!

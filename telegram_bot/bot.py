@@ -194,7 +194,7 @@ async def edit_existing_variant(message: types.Message):
 async def handle(message: types.Message):
     text = message.text
     user = message.from_user.id
-    logger.info(user, message.from_user.first_name, text)
+    logger.info((user, message.from_user.first_name, text))
     data = storage.get_user(user)
     current_state = data.get_state()
     is_on_edit = data.get_edit_state()
