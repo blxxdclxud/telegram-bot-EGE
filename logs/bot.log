@@ -13986,3 +13986,672 @@ googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.
 2022-09-30 21:48:54,209 - oauth2client.client - INFO - Refreshing access_token
 2022-09-30 21:49:04,947 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-09-30 21:49:04,949 - aiogram - WARNING - Goodbye!
+2022-10-03 09:31:49,157 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 09:31:49,233 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 09:31:49,655 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 09:31:49,857 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 09:31:49,858 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 09:32:02,250 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:32:03,840 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:32:05,098 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:06,191 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:07,357 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:08,193 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:09,077 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:09,886 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:10,865 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:12,284 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:15,255 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:20,479 - data.config - INFO - (362614929, 'дима', '34')
+2022-10-03 09:32:24,470 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:32:34,915 - data.config - INFO - (362614929, 'дима', '999')
+2022-10-03 09:32:43,850 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:32:56,422 - data.config - INFO - (362614929, 'дима', '3636')
+2022-10-03 09:33:00,004 - data.config - INFO - (362614929, 'дима', '1992923')
+2022-10-03 09:33:03,266 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:33:11,372 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:33:14,750 - data.config - INFO - (362614929, 'дима', 'далала')
+2022-10-03 09:33:18,006 - data.config - INFO - (362614929, 'дима', 'лкшула443')
+2022-10-03 09:33:21,919 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:33:31,033 - data.config - INFO - (362614929, 'дима', 'оаша')
+2022-10-03 09:33:40,043 - data.config - INFO - (362614929, 'дима', '18')
+2022-10-03 09:33:42,604 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:33:43,734 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:33:43,934 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:33:47,317 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:33:47,521 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:33:47,723 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:33:47,929 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:33:48,094 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:33:48,282 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:33:51,820 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:33:53,664 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:36:07,367 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 09:36:07,368 - aiogram - WARNING - Goodbye!
+2022-10-03 09:38:02,608 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 09:38:02,647 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 09:38:02,880 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 09:38:03,020 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 09:38:03,020 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 09:38:13,358 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:38:14,587 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:38:16,839 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:17,659 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:18,784 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:20,832 - data.config - INFO - (362614929, 'дима', '63')
+2022-10-03 09:38:22,164 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:23,393 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:24,520 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:25,647 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:26,874 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:29,025 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:31,791 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:33,635 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:38:40,801 - data.config - INFO - (362614929, 'дима', 'авб')
+2022-10-03 09:38:44,181 - data.config - INFO - (362614929, 'дима', '45')
+2022-10-03 09:38:49,609 - data.config - INFO - (362614929, 'дима', '18')
+2022-10-03 09:38:51,453 - data.config - INFO - (362614929, 'дима', '12')
+2022-10-03 09:38:56,269 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:03,945 - data.config - INFO - (362614929, 'дима', '12')
+2022-10-03 09:39:07,427 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:12,853 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:22,991 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:28,828 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:30,676 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:33,130 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:35,280 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:39:36,636 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:40:37,438 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:40:38,769 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:40:40,102 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:41,433 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:42,662 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:43,659 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:44,709 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:45,630 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:46,552 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:47,474 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:48,703 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:49,829 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:40:51,365 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:24,530 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 09:41:24,532 - aiogram - WARNING - Goodbye!
+2022-10-03 09:41:30,987 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 09:41:31,021 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 09:41:31,508 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 09:41:31,711 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 09:41:31,712 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 09:41:43,491 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:41:44,921 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:41:46,765 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:47,892 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:48,714 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:49,633 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:50,451 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:51,479 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:53,492 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:54,551 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:55,790 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:56,799 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:57,926 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:41:59,975 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:42:01,409 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:43:10,895 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 09:43:10,896 - aiogram - WARNING - Goodbye!
+2022-10-03 09:43:17,718 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 09:43:17,756 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 09:43:18,209 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 09:43:18,414 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 09:43:18,414 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 09:43:26,402 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:43:27,836 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:43:29,167 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:43:30,607 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:43:31,624 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:05,520 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:42,999 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:43,511 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:44,945 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:46,890 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:48,120 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:49,863 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:51,704 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:44:53,145 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:44:55,083 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:46:31,853 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:47:11,175 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:47:14,043 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:47:18,345 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:47:20,902 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:47:22,746 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:50:45,860 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 09:50:45,861 - aiogram - WARNING - Goodbye!
+2022-10-03 09:50:53,528 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 09:50:53,579 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 09:50:54,001 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 09:50:54,208 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 09:50:54,208 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 09:51:04,447 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:51:05,778 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:51:07,109 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:08,235 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:09,363 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:10,488 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:11,286 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:12,170 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:12,842 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:13,867 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:14,790 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:15,915 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:16,853 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:51:21,547 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:51:23,699 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:51:29,535 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:51:31,174 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:51:33,429 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:51:39,876 - data.config - INFO - (362614929, 'дима', '1999')
+2022-10-03 09:51:42,555 - data.config - INFO - (362614929, 'дима', 'ала')
+2022-10-03 09:51:48,076 - data.config - INFO - (362614929, 'дима', '18')
+2022-10-03 09:51:54,215 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:51:59,130 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:52:01,383 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:52:01,588 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:54:23,444 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 09:54:23,445 - aiogram - WARNING - Goodbye!
+2022-10-03 09:54:29,609 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 09:54:29,645 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 09:54:29,966 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 09:54:30,170 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 09:54:30,170 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 09:54:39,037 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-03 09:54:40,207 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 09:54:41,439 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:42,664 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:43,793 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:44,507 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:45,531 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:46,657 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:47,579 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:48,500 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:49,528 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:50,344 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:51,369 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 09:54:52,597 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:54:54,143 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:54:55,566 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:55:02,331 - data.config - INFO - (362614929, 'дима', '14929')
+2022-10-03 09:55:04,782 - data.config - INFO - (362614929, 'дима', 'алаш')
+2022-10-03 09:55:13,179 - data.config - INFO - (362614929, 'дима', '18')
+2022-10-03 09:55:16,250 - data.config - INFO - (362614929, 'дима', '17')
+2022-10-03 09:55:17,891 - data.config - INFO - (362614929, 'дима', '16')
+2022-10-03 09:55:19,837 - data.config - INFO - (362614929, 'дима', '15')
+2022-10-03 09:55:22,500 - data.config - INFO - (362614929, 'дима', '14')
+2022-10-03 09:55:37,448 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:55:41,135 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:55:44,515 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 09:55:46,050 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:55:47,699 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 09:58:36,549 - data.config - INFO - (362614929, 'дима', '15')
+2022-10-03 09:58:39,315 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 09:58:44,333 - data.config - INFO - (362614929, 'дима', '13')
+2022-10-03 09:58:53,686 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-03 10:01:43,042 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:01:43,043 - aiogram - WARNING - Goodbye!
+2022-10-03 10:01:48,062 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:01:48,099 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:01:48,449 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:01:48,655 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:01:48,655 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:01:54,389 - data.config - INFO - (362614929, 'дима', 'влвщ')
+2022-10-03 10:01:55,720 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:01:57,668 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:01:58,792 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:01:59,409 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:00,430 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:01,148 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:02,683 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:03,401 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:04,424 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:05,244 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:05,860 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:06,984 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:02:08,280 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:02:09,510 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:02:10,978 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:02:12,619 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:02:14,460 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:02:15,586 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:02:16,816 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:05:28,856 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:05:28,857 - aiogram - WARNING - Goodbye!
+2022-10-03 10:05:36,158 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:05:36,192 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:05:36,446 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:05:36,575 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:05:36,575 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:05:45,921 - data.config - INFO - (362614929, 'дима', 'лвлва')
+2022-10-03 10:05:48,479 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:05:49,922 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:05:51,142 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:05:52,166 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:05:53,395 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:05:54,154 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:05:54,932 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:06:47,161 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:06:47,162 - aiogram - WARNING - Goodbye!
+2022-10-03 10:06:49,337 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:06:49,371 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:06:49,716 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:06:49,920 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:06:49,920 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:06:54,017 - data.config - INFO - (362614929, 'дима', 'jddjd')
+2022-10-03 10:06:55,655 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:06:57,707 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:07:03,949 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:08:14,739 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:08:14,741 - aiogram - WARNING - Goodbye!
+2022-10-03 10:08:16,862 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:08:16,904 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:08:17,271 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:08:17,475 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:08:17,476 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:08:20,446 - data.config - INFO - (362614929, 'дима', 'djsid')
+2022-10-03 10:08:21,777 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:08:23,517 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:09:05,556 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:09:05,558 - aiogram - WARNING - Goodbye!
+2022-10-03 10:09:10,251 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:09:10,288 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:09:10,726 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:09:11,031 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:09:11,031 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:09:14,206 - data.config - INFO - (362614929, 'дима', 'djsid0')
+2022-10-03 10:09:15,334 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:09:16,665 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:09:19,533 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:09:38,476 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:09:43,495 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:09:44,826 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:09:47,387 - data.config - INFO - (362614929, 'дима', 'eur')
+2022-10-03 10:09:47,387 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=ValueError("invalid literal for int() with base 10: 'eur'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 288, in handle
+    if 0 <= int(text) <= up:
+ValueError: invalid literal for int() with base 10: 'eur'
+2022-10-03 10:09:52,303 - data.config - INFO - (362614929, 'дима', '73383')
+2022-10-03 10:10:59,097 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:10:59,099 - aiogram - WARNING - Goodbye!
+2022-10-03 10:11:01,290 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:11:01,329 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:11:01,729 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:11:02,036 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:11:02,037 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:11:05,730 - data.config - INFO - (362614929, 'дима', 'dhjd')
+2022-10-03 10:11:06,975 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:11:08,489 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:11:11,414 - data.config - INFO - (362614929, 'дима', 'eudhd')
+2022-10-03 10:11:11,414 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'markup' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 289, in handle
+    if 0 <= int(text) <= up:
+ValueError: invalid literal for int() with base 10: 'eudhd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 293, in handle
+    await send_message(user, f'Введите целое число из допустимого регистра', markup=markup)
+NameError: name 'markup' is not defined
+2022-10-03 10:12:05,690 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:12:05,692 - aiogram - WARNING - Goodbye!
+2022-10-03 10:12:07,768 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:12:07,808 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:12:08,165 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:12:08,392 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:12:08,394 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:12:13,923 - data.config - INFO - (362614929, 'дима', 'dhdd')
+2022-10-03 10:12:15,255 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:12:16,693 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:12:17,713 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:12:19,455 - data.config - INFO - (362614929, 'дима', 'hdjd')
+2022-10-03 10:12:22,832 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:12:52,112 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:12:52,113 - aiogram - WARNING - Goodbye!
+2022-10-03 10:13:02,747 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:13:02,791 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:13:03,179 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:13:03,382 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:13:03,383 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:13:12,398 - data.config - INFO - (362614929, 'дима', 'shss')
+2022-10-03 10:13:13,931 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:13:15,263 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:16,388 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:18,641 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:13:22,839 - data.config - INFO - (362614929, 'дима', 'hdjd0')
+2022-10-03 10:13:25,298 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:26,731 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:27,551 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:32,875 - data.config - INFO - (362614929, 'дима', '81822')
+2022-10-03 10:13:34,719 - data.config - INFO - (362614929, 'дима', 'dbdjjdd')
+2022-10-03 10:13:37,279 - data.config - INFO - (362614929, 'дима', 'hejdjf8r8rfif')
+2022-10-03 10:13:40,965 - data.config - INFO - (362614929, 'дима', '19')
+2022-10-03 10:13:43,218 - data.config - INFO - (362614929, 'дима', '12')
+2022-10-03 10:13:44,549 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:46,803 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:51,825 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:52,948 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:53,868 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:54,687 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:55,509 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:56,433 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:13:58,476 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:13:59,705 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:14:00,729 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:18:01,023 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:18:01,024 - aiogram - WARNING - Goodbye!
+2022-10-03 10:18:03,134 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:18:03,175 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:18:03,526 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:18:03,730 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:18:03,731 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:18:10,284 - data.config - INFO - (362614929, 'дима', 'dbksodd')
+2022-10-03 10:18:13,564 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:18:14,795 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:15,918 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:17,350 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:18,046 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:19,604 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:20,729 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:22,166 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:22,983 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:23,906 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:25,031 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:26,362 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:18:28,399 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:18:32,609 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:19:35,279 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:19:36,611 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:19:38,044 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:19:39,277 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:19:40,605 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:19:41,731 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:19:48,489 - data.config - INFO - (362614929, 'дима', 'dbksodd')
+2022-10-03 10:19:49,819 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:19:51,256 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:19:57,500 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:19:58,524 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:19:59,343 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:20:00,265 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:20:01,085 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:20:02,211 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:20:03,443 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:20:04,565 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:20:05,795 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:10,419 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:21:10,422 - aiogram - WARNING - Goodbye!
+2022-10-03 10:21:12,467 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:21:12,502 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:21:12,867 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:21:13,072 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:21:13,072 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:21:16,554 - data.config - INFO - (362614929, 'дима', 'jdsjd')
+2022-10-03 10:21:17,885 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:21:19,217 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:20,343 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:21,162 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:23,414 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:24,952 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:25,975 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:27,101 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:27,921 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:28,951 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:30,072 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:31,505 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:21:37,649 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:21:40,107 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:29:35,005 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:29:37,198 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:29:39,040 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:29:40,576 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:29:41,806 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:29:42,954 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:29:53,172 - data.config - INFO - (362614929, 'дима', 'jdsjd')
+2022-10-03 10:29:54,504 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:29:56,347 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:29:57,576 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:29:58,497 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:29:59,318 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:00,548 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:01,570 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:02,798 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:03,733 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:04,640 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:05,670 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:07,304 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:30:08,328 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:30:10,888 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:31:19,021 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:31:19,023 - aiogram - WARNING - Goodbye!
+2022-10-03 10:31:23,317 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:31:23,353 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:31:23,798 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:31:24,004 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:31:24,004 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:31:27,895 - data.config - INFO - (362614929, 'дима', 'bsjs')
+2022-10-03 10:31:29,125 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:31:30,767 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:31,585 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:32,503 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:33,220 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:34,552 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:35,268 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:35,986 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:36,702 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:37,725 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:38,750 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:39,879 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:31:41,413 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:31:45,098 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:33:06,680 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:33:06,681 - aiogram - WARNING - Goodbye!
+2022-10-03 10:33:08,842 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:33:08,881 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:33:09,171 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:33:09,376 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:33:09,377 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:33:14,604 - data.config - INFO - (362614929, 'дима', 'sjduf')
+2022-10-03 10:33:18,490 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:33:20,544 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:21,665 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:22,896 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:23,510 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:24,532 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:25,557 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:26,477 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:27,706 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:28,936 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:30,372 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:31,497 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:33:32,929 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:33:34,568 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:35:20,145 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:35:20,146 - aiogram - WARNING - Goodbye!
+2022-10-03 10:35:22,234 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:35:22,277 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:35:22,601 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:35:22,805 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:35:22,805 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:35:26,801 - data.config - INFO - (362614929, 'дима', 'shshed')
+2022-10-03 10:35:28,041 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:35:29,258 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:30,282 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:30,998 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:31,818 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:32,652 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:33,358 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:34,275 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:35,402 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:35,607 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:36,938 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:38,372 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:35:39,398 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:35:40,726 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:35:45,438 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:35:46,667 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:35:48,203 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:35:49,840 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:36:05,917 - data.config - INFO - (362614929, 'дима', '14')
+2022-10-03 10:36:11,139 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:36:18,312 - data.config - INFO - (362614929, 'дима', '14')
+2022-10-03 10:36:19,948 - data.config - INFO - (362614929, 'дима', 'ftygcc')
+2022-10-03 10:36:22,199 - data.config - INFO - (362614929, 'дима', '2i28833')
+2022-10-03 10:36:24,861 - data.config - INFO - (362614929, 'дима', 'ueudfff')
+2022-10-03 10:36:26,090 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:37:31,427 - data.config - INFO - (362614929, 'дима', '1887')
+2022-10-03 10:37:33,678 - data.config - INFO - (362614929, 'дима', '6')
+2022-10-03 10:37:36,850 - data.config - INFO - (362614929, 'дима', '6')
+2022-10-03 10:39:46,305 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:39:46,306 - aiogram - WARNING - Goodbye!
+2022-10-03 10:39:48,602 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:39:48,641 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:39:49,052 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:39:49,254 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:39:49,255 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:39:58,370 - data.config - INFO - (362614929, 'дима', 'sjisd')
+2022-10-03 10:39:59,804 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:40:01,033 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:01,955 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:02,569 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:03,284 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:03,898 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:04,410 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:05,537 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:06,357 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:06,869 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:07,893 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:08,302 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:40:09,327 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:40:14,044 - data.config - INFO - (362614929, 'дима', '17182')
+2022-10-03 10:40:15,265 - data.config - INFO - (362614929, 'дима', 'hejd')
+2022-10-03 10:40:18,440 - data.config - INFO - (362614929, 'дима', '18')
+2022-10-03 10:40:19,975 - data.config - INFO - (362614929, 'дима', '17')
+2022-10-03 10:40:21,410 - data.config - INFO - (362614929, 'дима', '16')
+2022-10-03 10:40:22,844 - data.config - INFO - (362614929, 'дима', '15')
+2022-10-03 10:40:24,380 - data.config - INFO - (362614929, 'дима', '14')
+2022-10-03 10:40:27,553 - data.config - INFO - (362614929, 'дима', '13')
+2022-10-03 10:40:29,806 - data.config - INFO - (362614929, 'дима', '12')
+2022-10-03 10:40:32,264 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:40:34,927 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:40:46,907 - data.config - INFO - (362614929, 'дима', '16')
+2022-10-03 10:40:49,878 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:40:52,642 - data.config - INFO - (362614929, 'дима', '7283838')
+2022-10-03 10:40:55,102 - data.config - INFO - (362614929, 'дима', 'ueeud')
+2022-10-03 10:40:58,172 - data.config - INFO - (362614929, 'дима', '10')
+2022-10-03 10:41:01,142 - data.config - INFO - (362614929, 'дима', '13')
+2022-10-03 10:41:02,476 - data.config - INFO - (362614929, 'дима', '9')
+2022-10-03 10:41:03,496 - data.config - INFO - (362614929, 'дима', '8')
+2022-10-03 10:41:05,135 - data.config - INFO - (362614929, 'дима', '7')
+2022-10-03 10:41:06,057 - data.config - INFO - (362614929, 'дима', '6')
+2022-10-03 10:41:07,288 - data.config - INFO - (362614929, 'дима', '5')
+2022-10-03 10:41:08,310 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:41:32,310 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:41:32,313 - aiogram - WARNING - Goodbye!
+2022-10-03 10:41:34,553 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:41:34,589 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:41:34,934 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:41:35,139 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:41:35,139 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:41:39,034 - data.config - INFO - (362614929, 'дима', 'gshsd')
+2022-10-03 10:41:40,464 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:41:42,307 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:41:43,127 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:41:43,741 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:41:44,355 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:41:44,938 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:41:49,577 - data.config - INFO - (362614929, 'дима', '5')
+2022-10-03 10:41:54,370 - data.config - INFO - (362614929, 'дима', '5')
+2022-10-03 10:41:56,848 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:42:35,720 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:42:35,721 - aiogram - WARNING - Goodbye!
+2022-10-03 10:42:37,976 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-03 10:42:38,012 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-03 10:42:39,448 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-03 10:42:39,651 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-03 10:42:39,651 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-03 10:42:44,466 - data.config - INFO - (362614929, 'дима', 'djdi')
+2022-10-03 10:42:45,813 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-03 10:42:47,333 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:47,946 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:48,663 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:49,072 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:49,995 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:51,634 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:52,452 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:42:57,469 - data.config - INFO - (362614929, 'дима', '5')
+2022-10-03 10:43:01,362 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:43:02,999 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:43:04,125 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:43:05,560 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:43:10,375 - data.config - INFO - (362614929, 'дима', '9')
+2022-10-03 10:43:11,807 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:43:12,728 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:43:14,164 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:43:14,980 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-03 10:43:16,005 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:43:17,131 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:43:18,360 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:43:20,100 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-03 10:43:21,022 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-03 10:43:22,149 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:43:22,968 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-03 10:43:25,528 - data.config - INFO - (362614929, 'дима', 'Да')
+2022-10-03 10:43:25,920 - oauth2client.transport - INFO - Attempting refresh to obtain initial access_token
+2022-10-03 10:43:25,979 - oauth2client.client - INFO - Refreshing access_token
+2022-10-03 10:43:30,238 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-124' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('11А Вариант 1')>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 309, in handle
+    await push(message)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 169, in push
+    send_to_sheets(data.get_sheets_format())
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 313, in send_to_sheets
+    add_data_to_personal_table(dct)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\google_sheets\google_sheets_handlers.py", line 169, in add_data_to_personal_table
+    add_data_to_general_table(data, _variant, sheets_names)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\google_sheets\google_sheets_handlers.py", line 105, in add_data_to_general_table
+    first_blank_row = cfg.TABLE_DATA["general"][sheet_name]["last_filled_row"] + 1
+KeyError: '11А Вариант 1'
+2022-10-03 10:43:33,126 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-03 10:43:33,127 - aiogram - WARNING - Goodbye!

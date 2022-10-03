@@ -43,7 +43,13 @@ class UserData:
         self.tasks = {}
 
     def set_editing_task_number(self, val):
-        self.editing_task = val
+        try:
+            if int(val) in range(1, self.state - 2):
+                self.editing_task = val
+            else:
+                raise ValueError
+        except ValueError:
+            raise ValueError
 
     def get_editing_task_number(self):
         return self.editing_task
@@ -131,7 +137,7 @@ async def send_welcome(message: types.Message):
                            "\n\t\t"
                            r"/push - залить данные в таблицу"
                            "\n\t\t"
-                           r"/check - узнать текущее количество введенных баллов",
+                           r"/check - узнать ТЕКУЩЕЕ(т.е. работает только во время заполнения) количество введенных баллов",
                            parse_mode="Markdown")
 
 
@@ -158,7 +164,6 @@ async def push(message: types.Message):
     data = storage.get_user(user)
     current_state = data.get_state()
     if current_state >= 20:
-        # storage.push()
         reply_markup = ReplyKeyboardRemove()
         # print(data.get_sheets_format())
         send_to_sheets(data.get_sheets_format())
@@ -199,13 +204,42 @@ async def handle(message: types.Message):
     current_state = data.get_state()
     is_on_edit = data.get_edit_state()
     if is_on_edit == 1:
-        data.set_editing_task_number(text)
-        data.set_edit_state(2)
-        await send_message(user, 'Введите правильное количество баллов')
+        try:
+            data.set_editing_task_number(text)
+            current_state = int(text) + 2
+            reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
+
+            up = 10
+            if current_state in range(3, 13):
+                reply_markup.add(button0, button1)
+            elif current_state in range(13, 16):
+                reply_markup.add(button0, button1, button2)
+            elif current_state in range(16, 18):
+                reply_markup.add(button0, button1, button2, button3)
+            else:
+                reply_markup.add(button0, button1, button2, button3, button4)
+            await send_message(user, 'Введите правильное количество баллов', markup=reply_markup)
+            data.set_edit_state(2)
+        except ValueError:
+            await send_message(user, 'Введите целое число из допустимого регистра')
     elif is_on_edit == 2:
         try:
             int(text)
-            data.set_task(text)
+            num = int(data.get_editing_task_number())
+            up = 4
+            if num in range(1, 12):
+                up = 1
+            elif num in (12, 14, 15):
+                up = 2
+            elif num in (13, 16):
+                up = 3
+            elif num in (17, 18):
+                up = 4
+            if 0 <= int(text) <= up:
+                data.set_task(text)
+            else:
+                raise ValueError
+
             await send_message(user, 'Ваше задание исправлено(посмотреть текущие баллы можно функцией "/check")')
             if current_state < 20:
                 await send_message(user, f'Введите баллы за {current_state - 2} задание')
@@ -214,7 +248,7 @@ async def handle(message: types.Message):
                 reply_markup.add(button_accept)
                 await bot.send_message(user, f'Если все правильно, напишите: "да"', reply_markup=reply_markup)
             data.set_edit_state(0)
-        except TypeError:
+        except:
             await send_message(user, f'Введите целое число из допустимого регистра')
     else:
         if current_state == 1:
@@ -223,7 +257,6 @@ async def handle(message: types.Message):
             # print(students)
             with open("telegram_bot/students.json", 'w') as f:
                 json.dump(students, f)
-            # print('done')
             reply_markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
             reply_markup.add(button_11a)
             reply_markup.add(button_11b)
@@ -236,21 +269,30 @@ async def handle(message: types.Message):
             await bot.send_message(user, f'Введите баллы за {current_state - 1} задание', reply_markup=reply_markup)
             data.set_state(data.get_state() + 1)
         elif current_state in range(3, 20):
+            num = current_state - 1
             reply_markup = ReplyKeyboardMarkup(resize_keyboard=True)
-            up = 10
-            if current_state in range(3, 13):
-                reply_markup.add(button0, button1)
+            if num in range(1, 12):
                 up = 1
-            elif current_state in range(13, 16):
-                reply_markup.add(button0, button1, button2)
+                reply_markup.add(button0, button1)
+            elif num in (12, 14, 15):
                 up = 2
-            elif current_state in range(16, 18):
-                reply_markup.add(button0, button1, button2, button3)
+                reply_markup.add(button0, button1, button2)
+            elif num in (13, 16):
                 up = 3
-            else:
-                reply_markup.add(button0, button1, button2, button3, button4)
+                reply_markup.add(button0, button1, button2, button3)
+            elif num in (17, 18):
                 up = 4
-            await ask_task(user, text, markup=reply_markup, up=up)
+                reply_markup.add(button0, button1, button2, button3, button4)
+            if num == 14:
+                up = 3
+            try:
+                if 0 <= int(text) <= up:
+                    data.update_task(str(current_state - 2), str(text))
+                    await ask_task(user, text, markup=reply_markup, up=up)
+                else:
+                    raise ValueError
+            except:
+                await send_message(user, f'Введите целое число из допустимого регистра', markup=reply_markup)
         elif current_state == 20:
             data.update_task(str(current_state - 2), text)
             reply_markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
@@ -273,16 +315,8 @@ def send_to_sheets(dct):
 async def ask_task(user, text, markup, up):
     data = storage.get_user(user)
     current_state = data.get_state()
-    try:
-        int(text)
-        if 0 <= int(text) <= up:
-            data.update_task(str(current_state - 2), str(text))
-            await send_message(user, f'Введите баллы за {current_state - 1} задание', markup=markup)
-            data.set_state(data.get_state() + 1)
-        else:
-            await send_message(user, f'Введите целое число из допустимого регистра', markup=markup)
-    except TypeError:
-        await send_message(user, f'Введите целое число из допустимого регистра', markup=markup)
+    await send_message(user, f'Введите баллы за {current_state - 1} задание', markup=markup)
+    data.set_state(data.get_state() + 1)
 
 
 def reformat_dict(dct):
