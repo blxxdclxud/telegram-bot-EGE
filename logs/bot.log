@@ -14655,3 +14655,305 @@ Traceback (most recent call last):
 KeyError: '11А Вариант 1'
 2022-10-03 10:43:33,126 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
 2022-10-03 10:43:33,127 - aiogram - WARNING - Goodbye!
+2022-10-11 13:38:05,446 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:38:05,551 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:38:06,015 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:38:06,218 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:38:06,218 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:38:16,767 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:38:18,098 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:38:20,556 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:38:21,375 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:38:22,296 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:23,013 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:23,495 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:38:24,242 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:25,056 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:25,504 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:38:26,300 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:26,910 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:38:27,534 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:28,204 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:38:29,157 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:38:29,423 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:30,693 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:31,307 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:38:32,741 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:38:33,970 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:39:20,910 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:39:20,912 - aiogram - WARNING - Goodbye!
+2022-10-11 13:43:59,823 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:43:59,858 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:44:00,222 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:44:00,427 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:44:00,427 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:44:09,542 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:44:11,179 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:44:12,818 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:13,740 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:14,559 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:15,379 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:16,095 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:16,846 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:17,323 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:18,247 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:18,860 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:19,782 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:20,396 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:44:21,215 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:44:22,612 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:44:23,775 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:24,902 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:44:26,847 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:28,281 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-11 13:44:29,202 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:29,203 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-91' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 309, in handle
+    f'{reformat_dict(data.get_tasks())}\n'
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 336, in reformat_dict
+    grades1 = sum(dct.values())
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2022-10-11 13:44:50,502 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:52,038 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:52,857 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:53,369 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:53,574 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:53,575 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:53,779 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:53,984 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:44:57,466 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:44:58,591 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:45:00,231 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:45:00,639 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:45:01,254 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:45:02,073 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:45:11,449 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:45:11,451 - aiogram - WARNING - Goodbye!
+2022-10-11 13:46:00,069 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:46:00,104 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:46:00,545 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:46:00,851 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:46:00,852 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:46:14,369 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:46:15,700 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:46:17,340 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:19,182 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:19,914 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:20,805 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:21,435 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:22,255 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:22,971 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:23,687 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:24,302 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:24,820 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:25,735 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:46:26,350 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:46:27,477 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:46:29,934 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:46:30,856 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:46:32,700 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:46:34,133 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-11 13:46:35,260 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:46:35,261 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-95' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 309, in handle
+    f'{reformat_dict(data.get_tasks())}\n'
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 333, in reformat_dict
+    grades1 = sum(dct.values())
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2022-10-11 13:47:08,752 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:47:08,754 - aiogram - WARNING - Goodbye!
+2022-10-11 13:47:12,173 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:47:12,210 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:47:12,533 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:47:12,739 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:47:12,739 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:47:19,702 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:47:20,931 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:47:22,364 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:23,081 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:23,901 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:24,719 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:25,476 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:30,484 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:31,376 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:32,092 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:41,514 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:48,784 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:49,808 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:47:52,675 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:47:54,211 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:47:55,338 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:47:56,157 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:47:57,078 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:47:58,820 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:47:59,639 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:47:59,640 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-91' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 309, in handle
+    f'{reformat_dict(data.get_tasks())}\n'
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 333, in reformat_dict
+    grades1 = sum(dct.values())
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2022-10-11 13:49:53,307 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:49:53,309 - aiogram - WARNING - Goodbye!
+2022-10-11 13:49:54,998 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:49:55,038 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:49:55,456 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:49:55,660 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:49:55,660 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:50:03,238 - data.config - INFO - (362614929, 'дима', 'Дима')
+2022-10-11 13:50:04,570 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:50:05,584 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:06,504 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:07,335 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:07,847 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:08,461 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:08,974 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:09,588 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:10,202 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:11,024 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:50:11,635 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:12,353 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:50:12,762 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:50:14,094 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:50:16,961 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:50:18,600 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:50:19,828 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:50:20,750 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:50:22,491 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:50:22,491 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-91' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\noitu\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 309, in handle
+    f'{reformat_dict(data.get_tasks())}\n'
+  File "C:\Users\noitu\work\PycharmProjects\telegram-EGE\telegram_bot\bot.py", line 333, in reformat_dict
+    grades1 = sum(dct.values())
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2022-10-11 13:51:11,741 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:51:11,743 - aiogram - WARNING - Goodbye!
+2022-10-11 13:51:14,589 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:51:14,624 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:51:15,023 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:51:15,227 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:51:15,227 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:51:27,209 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:51:28,643 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:51:29,770 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:30,486 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:31,307 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:31,756 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:32,432 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:33,353 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:33,661 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:34,377 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:35,095 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:35,785 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:36,733 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:37,193 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:51:40,727 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:51:41,956 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:44,414 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:51:49,738 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:51,353 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:51:52,196 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:52:06,359 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:52:06,360 - aiogram - WARNING - Goodbye!
+2022-10-11 13:52:09,351 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:52:09,391 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:52:09,706 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:52:09,910 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:52:09,910 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:52:29,675 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:52:31,006 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:52:32,131 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:32,850 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:33,567 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:34,079 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:34,796 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:35,311 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:36,127 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:37,049 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:37,868 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:38,584 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:39,505 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:52:40,632 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:52:42,374 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:52:43,602 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:52:44,831 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:52:46,059 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:52:47,327 - data.config - INFO - (362614929, 'дима', '4')
+2022-10-11 13:52:48,108 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:53:14,395 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:53:14,397 - aiogram - WARNING - Goodbye!
+2022-10-11 13:53:54,073 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2022-10-11 13:53:54,110 - data.config - WARNING - БОТ ВЫШЕЛ В ОНЛАЙН!!!
+2022-10-11 13:53:54,465 - aiogram - INFO - Bot: Результаты ЕГЭ [@ege_results_li7_bot]
+2022-10-11 13:53:54,672 - aiogram - WARNING - Updates were skipped successfully.
+2022-10-11 13:53:54,672 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2022-10-11 13:54:06,344 - data.config - INFO - (362614929, 'дима', 'Лукиянов Дмитрий')
+2022-10-11 13:54:07,677 - data.config - INFO - (362614929, 'дима', '11А')
+2022-10-11 13:54:09,007 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:09,928 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:10,750 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:11,464 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:12,073 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:13,000 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:13,615 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:14,741 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:15,560 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:16,585 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:17,711 - data.config - INFO - (362614929, 'дима', '1')
+2022-10-11 13:54:19,042 - data.config - INFO - (362614929, 'дима', '2')
+2022-10-11 13:54:21,500 - data.config - INFO - (362614929, 'дима', '3')
+2022-10-11 13:54:22,626 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:54:23,546 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:54:24,981 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:54:26,005 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:54:27,234 - data.config - INFO - (362614929, 'дима', '0')
+2022-10-11 13:55:10,622 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2022-10-11 13:55:10,625 - aiogram - WARNING - Goodbye!
