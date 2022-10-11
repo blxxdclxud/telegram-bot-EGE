@@ -15,6 +15,13 @@ button_accept = KeyboardButton('Да')
 button_11a = KeyboardButton('11А')
 button_11b = KeyboardButton('11Б')
 students = {}
+
+grades_dictionary = {1: 6, 2: 11, 3: 17, 4: 22, 5: 27, 6: 34, 7: 40,
+                     8: 46, 9: 52, 10: 58, 11: 64, 12: 66, 13: 68,
+                     14: 70, 15: 72, 16: 74, 17: 76, 18: 78, 19: 80,
+                     20: 82, 21: 84, 22: 86, 23: 88, 24: 90, 25: 92,
+                     26: 94, 27: 96, 28: 98, 29: 100, 30: 100, 31: 100}
+
 try:
     with open("telegram_bot/students.json") as f:
         students = json.load(f)
@@ -321,8 +328,14 @@ async def ask_task(user, text, markup, up):
 
 def reformat_dict(dct):
     res = ''
+    grades1 = 0
+    grades2 = 0
     for key, val in dct.items():
+        grades1 += val if type(val) == int else 0
         res += f'{key} : {val} \n'
+    res += f'Первичные баллы: {grades1} \n'
+    grades2 = grades_dictionary.get(grades1)
+    res += f'Вторичные баллы: {grades2}'
     return res.replace('name', 'ФИО').replace('grade', 'Класс')
 
 
