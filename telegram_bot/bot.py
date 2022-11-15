@@ -4,7 +4,9 @@ from data.config import logger
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton
 from google_sheets.google_sheets_handlers import add_data_to_personal_table
 
-TOKEN = "5738031171:AAEBv4hUujqqpRpApztI0ay29IsvQYt4JQM"
+with open('data/creds.json') as f:
+    data = json.load(f)
+TOKEN = data['bot_token']
 
 button0 = KeyboardButton('0')
 button1 = KeyboardButton('1')
@@ -144,7 +146,8 @@ async def send_welcome(message: types.Message):
                            "\n\t\t"
                            r"/push - залить данные в таблицу"
                            "\n\t\t"
-                           r"/check - узнать ТЕКУЩЕЕ(т.е. работает только во время заполнения) количество введенных баллов",
+                           r"/check - узнать ТЕКУЩЕЕ(т.е. работает только во время заполнения)"
+                           r" количество введенных баллов",
                            parse_mode="Markdown")
 
 
